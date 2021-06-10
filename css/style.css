@@ -1,0 +1,142 @@
+:root {
+    --defaut_bg_color: #03071f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    --text-primary: #9fa0c3;
+    --text-secondary: #e3d9ec;
+    --text-secondary2: #82abb1;
+    --green-like: #071b5c;
+    --hover-color: #01053a;
+    --sticky-color: #151c7c;
+}
+
+body {
+    background-color: var(--defaut_bg_color);
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    width: 6rem;
+    height: 100vh;
+    background-color: var(--green-like);
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    transition: 200ms ease;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-element {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar-element:last-child {
+    margin-top: auto;
+}
+
+.navbar-element:first-child {
+    margin-bottom: auto;
+}
+
+.nav-link {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--text-secondary);
+}
+
+.link-text {
+    display: none;
+    margin-left: 1rem;
+    color: var(--text-secondary);
+}
+
+#navbar:hover {
+    width: 16rem;
+}
+
+#navbar:hover .link-text {
+    display: block;
+}
+
+.navbar-element:hover {
+    background-color: var(--hover-color);
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 24px;
+    font-family: 'Odibee Sans', cursive;
+    display: none;
+    text-align: center;
+}
+
+.arrow {
+    transform: rotate(0deg);
+    transition: transform 500ms;
+}
+
+#navbar:hover .logo {
+    display: block;
+}
+
+#navbar:hover .arrow {
+    display: block;
+}
+
+#navbar:hover .first {
+    background-color: var(--sticky-color);
+}
+
+#navbar:hover .arrow {
+    transform: rotate(-180deg);
+}
+
+
+/* .nav-link:last-child {
+    align-self: center;
+} */
+
+
+/********* icons rules ********/
+
+.material-icons.colorp {
+    color: var(--text-primary);
+}
+
+
+/********* Styling the main *******/
+
+main {
+    margin-left: 6rem;
+    padding: 1rem;
+    color: var(--text-secondary2);
+}
+
+h1 {
+    color: var(--text-primary);
+    font-size: 40px;
+}
+
+p {
+    font-weight: 200;
+}
