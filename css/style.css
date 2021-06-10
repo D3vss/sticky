@@ -8,6 +8,7 @@
     --green-like: #071b5c;
     --hover-color: #01053a;
     --sticky-color: #151c7c;
+    --shadow: #01031b;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
     padding: 0;
     margin: 0;
     transition: 200ms ease;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 1px 0px 15px var(--shadow);
 }
 
 .navbar-nav li a {
@@ -136,6 +137,10 @@ main {
 h1 {
     color: var(--text-primary);
     font-size: 40px;
+}
+
+hr {
+    color: var(--text-primary);
 }
 
 p {
