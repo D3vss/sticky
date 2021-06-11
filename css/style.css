@@ -1,14 +1,14 @@
 :root {
-    --defaut_bg_color: #03071f;
+    --defaut_bg_color: #131313;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     --text-primary: #9fa0c3;
     --text-secondary: #e3d9ec;
-    --text-secondary2: #82abb1;
-    --green-like: #071b5c;
-    --hover-color: #01053a;
-    --sticky-color: #151c7c;
-    --shadow: #01031b;
+    --text-secondary2: #b1b082;
+    --green-like: #141414;
+    --hover-color: #462a00;
+    --sticky-color: #000000;
+    --shadow: #0f0801;
     --login: #20278d;
     --yellow: #FFA000;
 }
@@ -127,7 +127,7 @@ body {
 /********* icons rules ********/
 
 .material-icons.colorp {
-    color: var(--text-primary);
+    color: var(--yellow);
 }
 
 
@@ -140,12 +140,12 @@ body {
 }
 
 h1 {
-    color: var(--text-primary);
+    color: var(--yellow);
     font-size: 40px;
 }
 
 hr {
-    color: var(--text-primary);
+    color: var(--yellow);
 }
 
 p {
