@@ -9,6 +9,8 @@
     --hover-color: #01053a;
     --sticky-color: #151c7c;
     --shadow: #01031b;
+    --login: #20278d;
+    --yellow: #FFA000;
 }
 
 body {
@@ -16,6 +18,9 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+/****** Index.html ******/
 
 #navbar {
     width: 6rem;
@@ -128,7 +133,7 @@ body {
 
 /********* Styling the main *******/
 
-main {
+#main-content {
     margin-left: 6rem;
     padding: 1rem;
     color: var(--text-secondary2);
@@ -146,3 +151,6 @@ hr {
 p {
     font-weight: 200;
 }
+
+
+/*******Login******/
